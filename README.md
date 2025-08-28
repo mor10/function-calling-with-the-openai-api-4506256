@@ -9,12 +9,19 @@ Prompting is great, but sometimes you need a more programmatic approach. That’
 This repository has no branches. Each example featured in the course is contained in a separate file, prefixed 01, 02, and 03. To follow along, open the relevant file and follow the instructions in the course.
 
 ## Installing
-To run the queries in the example files, you need an OpenAI API key. 
+
+### Using GitHub Models:
+The example files are pre-configured to use GitHub Models and an `.env` file is automatically created when the Codespace is generated with your GitHub Personal Access Token.
+
+To run the examples, simply open the files with the `.http` suffix and click "SEND REQUEST" at the top of the request.
+
+### Using OpenAI API:
+To run the queries in the example files using the OpenAI API, you need an OpenAI API key. 
 1. Sign up for the OpenAI API at [https://platform.openai.com](https://platform.openai.com)
 2. Generate a new key at [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys).
 3. Copy the key (you only get to see it once).
 4. Open `/.vscode/settings.json` and paste your key where indicated (bottom of the file).
-5. Open `01-standard-query.http`.
+5. Open `/OPENAI-API/01-standard-query.http`.
 6. In the bottom toolbar, click on the words "No Environment" and change the setting to "openai". This will activate your key in the file and allow it to be used.
 
 ### Instructor

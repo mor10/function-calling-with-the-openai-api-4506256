@@ -1,6 +1,6 @@
-POST https://models.github.ai/inference/chat/completions
+POST https://api.openai.com/v1/chat/completions
 content-type: application/json
-Authorization: Bearer {{$dotenv GITHUB_TOKEN}}
+Authorization: Bearer {{key}}
 
 {
   "model": "openai/gpt-5-mini",
